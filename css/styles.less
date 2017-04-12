@@ -1,0 +1,91 @@
+.font-style {
+  font-family: 'Open Sans Condsed', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  .font-style
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 1);
+  display: block;
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid rgba(60, 69, 71, 1);
+  &__navber {
+    height: inherit;
+    &_block {
+      height: inherit;
+      position: relative;
+      top: 25%;
+    }
+  }
+}
+
+.navbar__logo {
+  font-size: 35px;
+  color: #3182B5;
+  text-transform: uppercase;
+  width: 225px;
+  line-height: 1em;
+  font-weight: 200;
+  position: absolute;
+  height: 100%;
+  bottom: 20px;
+}
+
+ul > li.active > a {
+  color: rgb(255, 255, 255);
+}
+.navbar__link {
+  text-transform: uppercase;
+  color: #3182B5;
+  font-size: 20px;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+
+//footer
+
+.footer{
+  width: 100%;
+  height: 66px;
+  background-color: rgba(0, 0, 0, 1);
+  display: block;
+  color: #ffffff;
+  &__left {
+    float: left;
+    height: 66px;
+    line-height: 5em;
+  }
+}
+
+.footer__link_market-radio{
+  background: url("../images/logo-market-radio.png");
+  display: inline-block;
+  width: 59px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.footer__rigth {
+  float: right;
+}
+
+.logo__social{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.social__vk {
+  background: url("../images/vk.png");
+}
+
+.social__fb{
+  background: url("../images/fb.png");
+}

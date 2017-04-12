@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Open Sans Condsed';
+    src: url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.eot');
+    src: url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.woff2') format('woff2'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.woff') format('woff'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.ttf') format('truetype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.svg#OpenSansCondLightItalic') format('svg');
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Open Sans Condsed';
+    src: url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.eot');
+    src: url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.woff2') format('woff2'),
+    url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.woff') format('woff'),
+    url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.ttf') format('truetype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.svg#OpenSansCondBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condsed';
+    src: url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.eot');
+    src: url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.woff2') format('woff2'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.woff') format('woff'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.ttf') format('truetype'),
+    url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.svg#OpenSansCondLight') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
